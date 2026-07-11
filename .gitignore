@@ -1,0 +1,10 @@
+build/
+out/
+.vs/
+*.wzr
+*.csv
+
+# local tooling, never publish
+CLAUDE.md
+.claude/
+.claude-state.json
