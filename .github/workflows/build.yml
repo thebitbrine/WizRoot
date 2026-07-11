@@ -6,6 +6,9 @@ on:
     tags: ["v*"]
   pull_request:
 
+permissions:
+  contents: write # release step needs to create releases
+
 jobs:
   build:
     runs-on: windows-latest
